@@ -1,0 +1,109 @@
+body{
+    background-color: #76c2cc;
+    background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+h1{
+    background-color: #76c2EE;
+    color: #76F2EE;
+    border: 2px solid;
+    border-radius: 10%;
+    width: 70%;
+    margin: 0 auto 20px auto;
+    font-size: 2.5rem;
+}
+li{
+    text-align: left;
+    font-family: 'Sriracha', cursive;
+    width: 100%;
+    font-size: 1.25rem;
+    margin: 10px 0;
+    cursor: pointer;
+    list-style: none;
+}
+.list-border{
+    border-style: dashed;
+    border-bottom: 0;
+}
+button:focus{
+    outline:none;
+}
+.app-container{
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    min-height: 600px;
+    border-radius: 10%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    width: 20%;
+    margin: 0 auto 0 auto;
+    padding-top: 50px;
+}
+.input-container{
+    position: sticky;
+}
+.add-item{
+    border-radius: 100%;
+    border: transparent 0;
+    background-color: transparent;
+}
+.new-item-textfield{
+    background-color: transparent;
+    border: 5px normal;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+input:focus{
+    outline:none;
+}
+.items-container{
+    padding-bottom: 30%;
+}
+.delete-icon{
+    margin-left:30px;
+    border:0;
+    background-color:transparent;
+    float:left;
+}
+
+
+/* Screen Size CSS */
+@media (max-width:1196px) {
+    .app-container{
+        width: 40%;
+    }
+}
+
+@media (max-width:700px){
+    .app-container{
+        width: 60%;
+    }
+}
+
+@media (max-width:600px){
+    .app-container{
+        width: 70%;
+    }
+}
+@media (max-width:366px){
+    .app-container{
+        width: 90%;
+    }
+}
+@media (max-width:272px){
+    .app-container{
+        width: 100%;
+    }
+}
+@media (max-width:254px){
+    .app-container{
+        width: 100%;
+    }
+}
+
+
+
+
